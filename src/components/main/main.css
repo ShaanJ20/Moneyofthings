@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-image{
+    color: white;
+    margin: auto;
+    width:100%;
+    min-height: 300px;
+    text-align: center;
+    background-image: url(./moneyimage.jpg);
+
+}
+
+.heading h2{
+    background-color: black;
+    color:white;
+    width:50%;
+    margin: auto;
+    position: relative;
+    top:100px;
+}
+
+
+
+.boxes-parent{
+    width:80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.boxes{
+    float:left;
+    text-align: center;
+    width:31.3%;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding:10px;
+    margin:10px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border:1px solid rgb(46, 45, 45);
+
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:600px){
+    .boxes{
+        margin-bottom: 30px;
+        float:none;
+        width:100%;
+    }
+}
+
+
+.second-counter{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.boxes-parent img{
+    width:100%;
+    max-width: 240px;
+    min-height: 240px;
+    max-height: 240px;
+    margin-top: 15px;
+    border-radius: 10px;
+}

@@ -10,7 +10,7 @@
     width:100%;
     min-height: 300px;
     text-align: center;
-    background-image: url(./moneyimage.jpg);
+    background-image: url(../main/assets/moneyimage.jpg);
 
 }
 
@@ -21,6 +21,30 @@
     margin: auto;
     position: relative;
     top:100px;
+}
+
+.madewithlove{
+    text-align: center;
+    font-size: 30px;
+}
+
+.madewithlove a{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
+}
+
+.contribution{
+    text-align: center;
+    font-size: 20px;
+}
+
+.contribution a{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
 }
 
 
@@ -35,13 +59,10 @@
     text-align: center;
     width:31.3%;
     border-radius: 5px;
-    border:1px solid #ccc;
     padding:10px;
     margin:10px;
 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border:1px solid rgb(46, 45, 45);
-
     box-sizing: border-box;
 }
 
@@ -64,8 +85,8 @@
 
 .boxes-parent img{
     width:100%;
-    max-width: 240px;
-    min-height: 240px;
+    max-width: 300px;
+    min-height: 250px;
     max-height: 240px;
     margin-top: 15px;
     border-radius: 10px;

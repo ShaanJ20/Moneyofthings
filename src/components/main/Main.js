@@ -183,7 +183,7 @@ export default function Main() {
         <p className='header-title'>{counter} seconds has Passed and they made</p>
   </div>
   <p className='madewithlove'>Made with ❤️ by <a href='https://twitter.com/shaanforlife' target='_blank'>Shaan</a></p>
-  <p className='contribution'>Hey If you would love to add on some more amazing things on this website <a>Start contributing</a> </p>
+  <p className='contribution'>Hey If you would love to add on some more amazing things on this website <a href='https://github.com/ShaanJ20/Moneyofthings' target='_blank'>Start contributing</a> </p>
 
   <div className="boxes-parent">
 

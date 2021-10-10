@@ -74,6 +74,22 @@
     }
 }
 
+@media only screen and (max-width:800px){
+    .boxes{
+        margin-bottom: 30px;
+        float:none;
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .boxes{
+        margin-bottom: 30px;
+        float:none;
+        width:100%;
+    }
+}
+
 
 .second-counter{
     text-align: center;
